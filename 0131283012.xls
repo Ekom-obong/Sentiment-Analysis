@@ -1,0 +1,181 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head><title>
+	Untitled Page
+</title></head>
+<body>
+    <form name="form1" method="post" action="Usercontrols/AccountStmtExport.aspx" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+
+    <div>
+        <table width="100%">
+            <tr>
+                <td colspan="3">
+                    <table width="100%">
+                        <tr>
+                            <td colspan="3" style="text-align: center; font-weight: bold; font-size: 12pt; color: green; font-family: Verdana;" width="60%">
+                                GUARANTY TRUST BANK PLC<br />
+                                <br />
+                                CUSTOMER STATEMENT<br />
+                                <br />
+                                <span id="lblAcctName" style="color:Black;">ESSIEN EKOMOBONG EDEM</span><br />
+                            </td>
+                            <td colspan="1" style="text-align: left" width="40%">
+                                <img id="Image1" src="Images/glogo.gif" border="0" /></td>
+                        </tr>
+                    </table>
+                    <table width="500">
+                        <tr>
+                            <td colspan="2">
+                                Print Date:
+                                <span id="lblDate">April 21, 2025</span></td>
+                        </tr>
+                        <tr>
+                            <td style="height: 20px" width="25%">
+                            </td>
+                            <td style="height: 20px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                Address:
+                                <span id="lblAddress">24  FAITH NA ROAD  UYO AKWA IBO</span></td>
+                        </tr>
+                        <tr>
+                            <td style="height: 20px" width="25%">
+                            </td>
+                            <td style="height: 20px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                Account No:
+                                <span id="lblAcctNo">0131283012</span></td>
+                        </tr>
+                        <tr>
+                            <td style="height: 20px" width="25%">
+                            </td>
+                            <td style="height: 20px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="height: 20px" width="25%" colspan="2">
+                                Currency:<span id="lblCurrency">NGN</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="height: 20px" width="25%">
+                                &nbsp;</td>
+                            <td style="height: 20px">
+                                &nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                Period:
+                                <span id="lblPeriod1">March 1, 2025   - </span>
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                                <span id="lblPeriod2">March 31, 2025</span></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="height: 20px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="height: 21px" colspan="2"> Opening Balance:
+                                <span id="lblOpenBal">           104,584.69</span></td>
+                        </tr>
+                    </table>
+                    <br />
+                    <table width="849">
+                        <tr>
+                            <td colspan="3">
+                                <table cellspacing="0" cellpadding="3" border="0" id="dgtrans" style="font-family:Verdana;height:141px;width:849px;border-collapse:collapse;">
+	<tr nowrap="nowrap" valign="top" style="color:Green;font-size:X-Small;font-weight:bold;height:18px;">
+		<td style="width:10%;">Trans Date</td><td style="width:10%;">Reference</td><td style="width:10%;">Value Date</td><td align="right" style="width:10%;">Debit</td><td align="right" style="width:10%;">Credit</td><td align="right" style="font-weight:bold;font-style:normal;text-decoration:none;width:10%;">Balance</td><td style="width:30%;">Remarks</td>
+	</tr><tr nowrap="nowrap" style="color:Black;background-color:White;font-family:Verdana;font-size:X-Small;">
+		<td>01-Mar-2025</td><td>'5837453727USS</td><td>01-Mar-2025</td><td align="right">             1,500.00</td><td align="right">&nbsp;</td><td align="right" style="font-weight:normal;font-style:normal;text-decoration:none;">           103,084.69</td><td>Airtime Purchase VIA GTWORLD 101CT0000000005837453727-2348037778417-DATA </td>
+	</tr><tr nowrap="nowrap" style="color:Black;background-color:White;font-family:Verdana;font-size:X-Small;">
+		<td>03-Mar-2025</td><td>'01312830120241053606GTW</td><td>03-Mar-2025</td><td align="right">&nbsp;</td><td align="right">           160,000.00</td><td align="right" style="font-weight:normal;font-style:normal;text-decoration:none;">           263,084.69</td><td>OWN ACCOUNT TRANSFER VIA GTWORLD   OWN ACCOUNT TRANSFER </td>
+	</tr><tr nowrap="nowrap" style="color:Black;background-color:White;font-family:Verdana;font-size:X-Small;">
+		<td>03-Mar-2025</td><td>'01312830120241053606GTW</td><td>03-Mar-2025</td><td align="right">&nbsp;</td><td align="right">           390,000.00</td><td align="right" style="font-weight:normal;font-style:normal;text-decoration:none;">           653,084.69</td><td>OWN ACCOUNT TRANSFER VIA GTWORLD   OWN ACCOUNT TRANSFER </td>
+	</tr><tr nowrap="nowrap" style="color:Black;background-color:White;font-family:Verdana;font-size:X-Small;">
+		<td>05-Mar-2025</td><td>'02471904330131283012GTW</td><td>05-Mar-2025</td><td align="right">           547,000.00</td><td align="right">&nbsp;</td><td align="right" style="font-weight:normal;font-style:normal;text-decoration:none;">           106,084.69</td><td>TRANSFER BETWEEN CUSTOMERS VIA GTWORLD   FROM ESSIEN EKOM-OBONG EDEM TO AKWAYO INIOBONG JOB </td>
+	</tr><tr nowrap="nowrap" style="color:Black;background-color:White;font-family:Verdana;font-size:X-Small;">
+		<td>05-Mar-2025</td><td>'02410536060131283012GTW</td><td>05-Mar-2025</td><td align="right">            53,000.00</td><td align="right">&nbsp;</td><td align="right" style="font-weight:normal;font-style:normal;text-decoration:none;">            53,084.69</td><td>OWN ACCOUNT TRANSFER VIA GTWORLD   OWN ACCOUNT TRANSFER </td>
+	</tr><tr nowrap="nowrap" style="color:Black;background-color:White;font-family:Verdana;font-size:X-Small;">
+		<td>06-Mar-2025</td><td>'01312830120241053606GTW</td><td>06-Mar-2025</td><td align="right">&nbsp;</td><td align="right">            45,000.00</td><td align="right" style="font-weight:normal;font-style:normal;text-decoration:none;">            98,084.69</td><td>OWN ACCOUNT TRANSFER VIA GTWORLD   OWN ACCOUNT TRANSFER </td>
+	</tr><tr nowrap="nowrap" style="color:Black;background-color:White;font-family:Verdana;font-size:X-Small;">
+		<td>06-Mar-2025</td><td>'01312830120241053606GTW</td><td>06-Mar-2025</td><td align="right">&nbsp;</td><td align="right">           110,000.00</td><td align="right" style="font-weight:normal;font-style:normal;text-decoration:none;">           208,084.69</td><td>OWN ACCOUNT TRANSFER VIA GTWORLD   OWN ACCOUNT TRANSFER </td>
+	</tr><tr nowrap="nowrap" style="color:Black;background-color:White;font-family:Verdana;font-size:X-Small;">
+		<td>08-Mar-2025</td><td>'01312830120241053606GTW</td><td>08-Mar-2025</td><td align="right">&nbsp;</td><td align="right">            65,000.00</td><td align="right" style="font-weight:normal;font-style:normal;text-decoration:none;">           273,084.69</td><td>OWN ACCOUNT TRANSFER VIA GTWORLD   OWN ACCOUNT TRANSFER </td>
+	</tr><tr nowrap="nowrap" style="color:Black;background-color:White;font-family:Verdana;font-size:X-Small;">
+		<td>08-Mar-2025</td><td>'GTW</td><td>08-Mar-2025</td><td align="right">            20,800.00</td><td align="right">&nbsp;</td><td align="right" style="font-weight:normal;font-style:normal;text-decoration:none;">           252,284.69</td><td>NIBSS Instant Payment Outward 000013250308190531000018432508 NIP TRANSFER TO FBN - UDOANYA UDUAK GABRIEL </td>
+	</tr><tr nowrap="nowrap" style="color:Black;background-color:White;font-family:Verdana;font-size:X-Small;">
+		<td>10-Mar-2025</td><td>'01312830120241053606GTW</td><td>10-Mar-2025</td><td align="right">&nbsp;</td><td align="right">            30,000.00</td><td align="right" style="font-weight:normal;font-style:normal;text-decoration:none;">           282,284.69</td><td>OWN ACCOUNT TRANSFER VIA GTWORLD   OWN ACCOUNT TRANSFER </td>
+	</tr><tr nowrap="nowrap" style="color:Black;background-color:White;font-family:Verdana;font-size:X-Small;">
+		<td>15-Mar-2025</td><td>'02410536060131283012GTW</td><td>15-Mar-2025</td><td align="right">            26,800.00</td><td align="right">&nbsp;</td><td align="right" style="font-weight:normal;font-style:normal;text-decoration:none;">           255,484.69</td><td>OWN ACCOUNT TRANSFER VIA GTWORLD   OWN ACCOUNT TRANSFER </td>
+	</tr><tr nowrap="nowrap" style="color:Black;background-color:White;font-family:Verdana;font-size:X-Small;">
+		<td>18-Mar-2025</td><td>'GTW</td><td>18-Mar-2025</td><td align="right">            20,000.00</td><td align="right">&nbsp;</td><td align="right" style="font-weight:normal;font-style:normal;text-decoration:none;">           235,484.69</td><td>NIBSS Instant Payment Outward 000013250318084353000036583243 NIP TRANSFER TO ACCESS - EDIKAN INI JOE </td>
+	</tr><tr nowrap="nowrap" style="color:Black;background-color:White;font-family:Verdana;font-size:X-Small;">
+		<td>20-Mar-2025</td><td>'09040525032017120272NIP</td><td>20-Mar-2025</td><td align="right">&nbsp;</td><td align="right">             5,500.00</td><td align="right" style="font-weight:normal;font-style:normal;text-decoration:none;">           240,984.69</td><td>TRANSFER BETWEEN CUSTOMERS 090405250320171202720126679014-AKPAN  PETER TRF FOR CUSTOMERAT126TRF2MPT55DCQ190 O</td>
+	</tr><tr nowrap="nowrap" style="color:Black;background-color:White;font-family:Verdana;font-size:X-Small;">
+		<td>21-Mar-2025</td><td>'GTW</td><td>21-Mar-2025</td><td align="right">            20,800.00</td><td align="right">&nbsp;</td><td align="right" style="font-weight:normal;font-style:normal;text-decoration:none;">           220,184.69</td><td>NIBSS Instant Payment Outward 000013250321112939000043038355 NIP TRANSFER TO FBN - UDOANYA UDUAK GABRIEL </td>
+	</tr><tr nowrap="nowrap" style="color:Black;background-color:White;font-family:Verdana;font-size:X-Small;">
+		<td>25-Mar-2025</td><td>'GTW</td><td>25-Mar-2025</td><td align="right">            20,000.00</td><td align="right">&nbsp;</td><td align="right" style="font-weight:normal;font-style:normal;text-decoration:none;">           200,184.69</td><td>NIBSS Instant Payment Outward 000013250325085128000050493725 NIP TRANSFER TO STERLING - USEN ISAAC EDEM </td>
+	</tr><tr nowrap="nowrap" style="color:Black;background-color:White;font-family:Verdana;font-size:X-Small;">
+		<td>29-Mar-2025</td><td>'5873147003USS</td><td>29-Mar-2025</td><td align="right">               500.00</td><td align="right">&nbsp;</td><td align="right" style="font-weight:normal;font-style:normal;text-decoration:none;">           199,684.69</td><td>Airtime Purchase VIA GTWORLD 101CT0000000005873147003-2348037778417-AIRTIME </td>
+	</tr><tr nowrap="nowrap" style="color:Black;background-color:White;font-family:Verdana;font-size:X-Small;">
+		<td>30-Mar-2025</td><td>'BR</td><td>30-Mar-2025</td><td align="right">               112.00</td><td align="right">&nbsp;</td><td align="right" style="font-weight:normal;font-style:normal;text-decoration:none;">           199,572.69</td><td>VALUE ADDED TAX SMS ALERT CHARGE FOR 27-Feb-2025 to 28-Mar-2025 SMS CHARGES FOR 27 FEB-28 MAR</td>
+	</tr><tr nowrap="nowrap" style="color:Black;background-color:White;font-family:Verdana;font-size:X-Small;">
+		<td>30-Mar-2025</td><td>'BR</td><td>30-Mar-2025</td><td align="right">                 8.40</td><td align="right">&nbsp;</td><td align="right" style="font-weight:normal;font-style:normal;text-decoration:none;">           199,564.29</td><td>VALUE ADDED TAX VAT CHARGES</td>
+	</tr><tr nowrap="nowrap" style="color:Black;background-color:White;font-family:Verdana;font-size:X-Small;">
+		<td>31-Mar-2025</td><td>'GTW</td><td>31-Mar-2025</td><td align="right">             2,000.00</td><td align="right">&nbsp;</td><td align="right" style="font-weight:normal;font-style:normal;text-decoration:none;">           197,564.29</td><td>NIBSS Instant Payment Outward 000013250331101924000065340647 NIP TRANSFER TO 9PSB - XPRESSPAYMENT/EKOM-OBONG ESSIEN</td>
+	</tr><tr nowrap="nowrap" style="color:Black;background-color:White;font-family:Verdana;font-size:X-Small;">
+		<td>31-Mar-2025</td><td>'GTW</td><td>31-Mar-2025</td><td align="right">            28,400.00</td><td align="right">&nbsp;</td><td align="right" style="font-weight:normal;font-style:normal;text-decoration:none;">           169,164.29</td><td>NIBSS Instant Payment Outward 000013250331151719000065766678 NIP TRANSFER TO ZBN - OTOSI NIGERIA ENT.(ACCOUNT 2)</td>
+	</tr><tr nowrap="nowrap" style="color:Black;background-color:White;font-family:Verdana;font-size:X-Small;">
+		<td>31-Mar-2025</td><td>'GTW</td><td>31-Mar-2025</td><td align="right">             5,400.00</td><td align="right">&nbsp;</td><td align="right" style="font-weight:normal;font-style:normal;text-decoration:none;">           163,764.29</td><td>NIBSS Instant Payment Outward 000013250331183951000065993875 NIP TRANSFER TO ACCESS - EDIKAN INI JOE </td>
+	</tr>
+</table></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="font-weight: bold; font-size: 10pt; color: green; font-family: Verdana">
+                                PLEASE DIRECT ALL ENQUIRIES TO GUARANTY TRUST BANK LIMITED</td>
+                        </tr>
+                      
+                        <tr>
+                            <td colspan="3" style="font-weight: bold; font-size: 10pt; color: green; font-family: Verdana">
+                                SYSTEMS AND CONTROL DIVISION</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="font-weight: bold; font-size: 10pt; color: green; font-family: Verdana">
+                                178, AWOLOWO ROAD, IKOYI</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="font-weight: bold; font-size: 10pt; color: green; font-family: Verdana;
+                                height: 17px">
+                                P.O.BOX 75455, VICTORIA ISLAND, LAGOS, NIGERIA</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="font-weight: bold; font-size: 10pt; color: green; font-family: Verdana">
+                                E-mail:&nbsp; syscongrp@gtbank.com</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="font-weight: bold; font-size: 10pt; color: green; font-family: Verdana">
+                                OR CONTACT THE CUSTOMER INFORMATION SERVICE UNIT OF YOUR LOCAL BRANCH</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    
+    </div>
+    </form>
+</body>
+</html>
